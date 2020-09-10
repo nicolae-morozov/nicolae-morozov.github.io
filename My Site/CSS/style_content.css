@@ -1,0 +1,192 @@
+.header {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: blue;
+}
+
+.lineH {
+    background-color: #000;
+    height: 4px;
+    margin-top: 10px;
+}
+
+
+
+.flexing {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.menu {
+
+    font-family: sans-serif;
+
+font-size: 30px;
+    width: 40%;
+    min-width: 200px;
+    margin-top: 10px;
+
+}
+
+
+
+.gallery {
+
+    /* flexbox
+
+    width: 50%;
+    margin-top: 50px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    font-family: sans-serif;
+    margin-left: 0%;
+
+    */
+
+
+margin: 0;
+  margin-top: 45px;
+  width: 1000px;
+  margin-left: 50px;
+
+
+
+
+
+
+
+   /* margin-top: 50px;
+
+    width: 50%;
+    display: grid;
+    font-family: sans-serif;
+    grid-gap: 50px;
+    grid-template-columns: 300px 300px;
+    grid-gap: 50px; */
+
+
+    /*width: 25%;
+    margin: 10%;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-top: 50px*/
+}
+
+.mySlides {display: none}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+      .Buttons {
+        position: relative;
+        bottom: 220px;
+        max-width: auto;
+
+    }
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.image_campaign {
+
+
+    position: fixed;
+    top: 600px;
+
+}
+
+
+/*
+@media screen and (max-width: 1100px) {
+  .gallery {
+    grid-template-columns: 1fr;
+
+
+  }
+
+
+
